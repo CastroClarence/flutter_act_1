@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       home: const DefaultTabController(length: 5, child: MainPage()),
       theme: ThemeData.dark(useMaterial3: true),
       debugShowCheckedModeBanner: false,
+      title: "Portfolio",
     );
   }
 }
