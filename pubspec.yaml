@@ -8,6 +8,7 @@ environment:
 
 dependencies:
   font_awesome_flutter: ^10.7.0
+  material_symbols_icons: ^4.2768.0
   flutter:
     sdk: flutter
 

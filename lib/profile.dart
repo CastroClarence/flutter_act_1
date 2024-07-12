@@ -28,6 +28,7 @@ class ProfilePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
                       "images/me.jpg",
+                      height: 600,
                       fit: BoxFit.cover,
                       alignment: Alignment.bottomCenter,
                     ),

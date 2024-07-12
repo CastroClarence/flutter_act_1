@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:material_symbols_icons/symbols.dart';
 
 class SkillsPage extends StatelessWidget {
   const SkillsPage({super.key});
@@ -39,7 +40,7 @@ class SkillsPage extends StatelessWidget {
               SkillIcon(label: "ReactJS", teng: FontAwesomeIcons.react),
               SkillIcon(label: "SQL", teng: FontAwesomeIcons.database),
               SkillIcon(label: "Dart", teng: Icons.code),
-              SkillIcon(label: "Flutter", teng: FontAwesomeIcons.mobile)
+              SkillIcon(label: "Flutter", teng: Symbols.flutter)
             ],
           ),
           const Padding(
